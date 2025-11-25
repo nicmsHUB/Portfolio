@@ -18,14 +18,24 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
+    color: white;
 }
 
 header a{
     text-decoration: none;
     padding: 20px;
+    color: white;
 }
 
 main p{
+    color: white;
+    font-family: Dancing Script;
+    font-size: 25px;
+}
+main{
     display: flex;
+    flex-direction: column; 
     justify-content: center;
+    align-items: center;     
+    min-height: calc(100vh - 80px); 
 }
