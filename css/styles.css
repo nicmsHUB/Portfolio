@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url("../media/img1.jpg");;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    font-family: Montserrat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+header a{
+    text-decoration: none;
+    padding: 20px;
+}
+
+main p{
+    display: flex;
+    justify-content: center;
+}
