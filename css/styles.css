@@ -186,42 +186,46 @@ footer a:hover{
     max-width: 900px;       
     width: 100%;            
     padding: 20px;
-    display: flex;            /* contenedor horizontal */
-    flex-direction: row;      /* imagen izquierda, texto derecha */
-    align-items: center;      /* centrado vertical */
-    gap: 40px;                /* espacio entre imagen y texto */
+    display: flex;   
+    justify-content: space-around;           
+    align-items: center;     
+    gap: 40px;            
     max-width: none;       
     width: 100%;            
     padding: 0;
-}
-#about h2 {
-    color: white;
-    font-family: 'Oswald';
-    font-size: 32px;
-    margin: 30px;
-    align-self: flex-start;
-    
+    justify-content: center;
 }
 
-#about p{
+#about .text p{
     color: white;
     font-family: 'Montserrat';
-    padding-left: 70px;
+    padding-left: 700px;
     padding-right: 100px;
+}
+
+#about .about-h3 h3{
+    color: white;
+    font-size: 24px;
+    text-align: center; 
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin: 20px;
+    padding-left: 610px;
 }
 
 #about h3{
     color: white;
     font-family: 'Oswald';
-    font-size: 20px;
+    font-size: 30px;
     margin: 30px;
-    padding-left: 200px;
 }   
 .about-image img{
     display: block;
     border-radius: 7px;
     margin-left: 150px;
-    margin-top: 200px;
+    margin-top: 150px;
+    box-shadow: 4px 4px 10px #000;
 }
 .about-header {
     width: 100%;
@@ -234,17 +238,29 @@ footer a:hover{
 
 .about-skills {
     width: 100%;
-    display: flex;
     justify-content: center; /* centra la lista debajo del h3 */
     margin-top: 10px;
+    background-color: #9B59B6;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #6d3f80;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.about-skills .skills-h3 h3{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    text-align: center; 
 }
 
 .about-skills ul {
     list-style: none; /* elimina los puntos */
-    padding: 0;
-    margin: 0;
     display: block; /* fuerza lista vertical */
     text-align: left; /* opcional, alinea a la izquierda dentro del contenedor */
+    margin: 30px;
 }
 
 .about-skills ul li {
@@ -253,6 +269,23 @@ footer a:hover{
     font-size: 16px;
     margin-bottom: 10px; /* espacio entre cada li */
 }
+
+.about-footer {
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    background-color: #000;
+}
+
+.about-footer a{
+    color: #9B59B6;
+    text-decoration: none;
+}
+
+
 
 
 /* =========================
